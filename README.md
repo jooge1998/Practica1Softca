@@ -76,4 +76,42 @@ git push --tags
 ```
 ![ignore](/CAPTURAS/subir_tag.png)
 
+12.. Crear una rama v0.2.
+
+```sh
+git branch v.02
+```
+
+![ignore](/CAPTURAS/branchv02.png)
+
+13. Posiciona tu carpeta de trabajo en esta rama.
+
+```sh
+git checkout v.02
+```
+
+
+![ignore](/CAPTURAS/checkoutv02.png)
+
+14. Añadir un fichero 2.txt en la rama v0.2.
+
+```sh
+git touch 2.txt
+```
+
+![ignore](/CAPTURAS/2txt.png)
+
+15. Subir los cambios al repositorio remoto.
+
+```sh
+git push origin v.02
+```
+![ignore](/CAPTURAS/pushv02.png)
+
+16. Posicionarse en la rama master.
+
+```sh
+git checkout main
+```
+![ignore](/CAPTURAS/checkout main.png)
 
