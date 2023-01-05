@@ -113,5 +113,5 @@ git push origin v.02
 ```sh
 git checkout main
 ```
-![ignore](/CAPTURAS/checkout main.png)
+![ignore](/CAPTURAS/checkoutt%20main.png)
 
