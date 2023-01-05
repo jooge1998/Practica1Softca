@@ -32,3 +32,28 @@ git commit -m "commit inicial"
 git push
 ```
 ![push](/CAPTURAS/commit.png)
+
+6. Crear en el repositorio local un fichero llamado privado.txt.
+
+```sh
+touch privado.txt
+```
+![ignore](/CAPTURAS/ignor_fic.png)
+
+7. Crear en el repositorio local una carpeta llamada privada.
+
+```sh
+mkdir privada
+```
+![ignore](/CAPTURAS/ignor_dir.png)
+
+8. Realizar los cambios oportunos para que tanto el archivo como
+la carpeta sea ignorada por git.
+
+
+```sh
+nano .gitignore
+```
+
+
+
