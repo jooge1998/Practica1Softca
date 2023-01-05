@@ -54,6 +54,26 @@ la carpeta sea ignorada por git.
 ```sh
 nano .gitignore
 ```
+9. Añadir fichero 1.txt al repositorio local.
 
+```sh
+touch 1.txt
+```
+
+![ignore](/CAPTURAS/fiche_1.png)
+
+10. Crear un tag v0.1.
+
+```sh
+git tag -a v0.1 -m "version 0.1"
+```
+![ignore](/CAPTURAS/tag0.1.png)
+
+11. Subir los cambios al repositorio remoto.
+
+```sh
+git push --tags
+```
+![ignore](/CAPTURAS/subir_tag.png)
 
 
